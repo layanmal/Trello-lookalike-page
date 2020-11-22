@@ -1,0 +1,163 @@
+ body{
+    background-color: rgb(0, 121, 191);
+    color: #172b4d;
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    }
+.msg li{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    min-height: 100%;
+    padding: 10px;
+}
+.list-card{
+    margin-right: 10px;
+}
+
+div li button{
+    width:80px;
+    height:24px;
+    background-color: #5aac44;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+    min-height: 32px;
+    height: 32px;
+    margin-top: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.addcard{
+    width:260px;
+    background-color: hsla(0,0%,100%,.3);
+    height: auto;
+    min-height: 32px;
+    padding: 4px;
+    
+    border: 1px hsla(0,0%,100%,.1) solid;
+    border-radius: 3px;
+    color: #5e6c84;
+    display: block;
+    flex: 1 0 auto;
+    margin: 2px 0 8px 8px;
+    padding: 4px 8px;
+    position: relative;
+    text-align: left;
+   
+    
+}
+.btn{
+    width:260px;
+    background-color: hsla(0,0%,100%,.3);
+    height: auto;
+    min-height: 32px;
+    padding: 4px;
+    border: 1px hsla(0,0%,100%,.1) solid;
+    border-radius: 3px;
+    color: whitesmoke;
+    display: block;
+    flex: 1 0 auto;
+    margin: 2px 0 8px 8px;
+    padding: 4px 8px;
+    position: relative;
+    text-align: left;  
+}
+
+
+.msg,.cards-list-canves{
+    background-color: #ebecf0;
+    border-radius: 3px;
+    height: auto;
+    min-height: 32px;
+    padding: 4px;
+    transition: background 85ms ease-in,opacity 40ms ease-in,border-color 85ms ease-in;
+    scroll-snap-align: center;
+    width: 266px;
+    margin: 0 4px;
+    box-sizing: border-box;
+   
+    vertical-align: top;
+    white-space: nowrap;
+}
+.title-add{
+    width: 98%;
+    background: #fff;
+    border: none;
+    box-shadow: inset 0 0 0 2px #0079bf;
+    display: block;
+    margin: 0;
+    transition: margin 85ms ease-in,background 85ms ease-in;
+    
+}
+.txt-add{
+    width: 98%;
+    background: #fff;
+    border: none;
+    box-shadow: none;
+    border-radius: 3px;
+    display: block;
+    line-height: 20px;
+    margin-bottom: 4px;
+    max-height: 162px;
+    min-height: 54px;
+}
+.msg li, .msg1 .wrap li{
+    height: auto;
+    transition: margin 85ms ease-in,height 85ms ease-in;
+    overflow: hidden;
+    margin: 4px 0 0;
+}
+.card{
+    width:272px;
+    background-color: #ebecf0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top:13px;
+    flex-direction: column;
+    max-height: 100%;
+    position: relative;
+    white-space: normal;
+    
+    
+}
+div .up{
+    width:272px;
+    padding-right: 36px;
+    padding: 10px 8px;
+    position: relative;
+    min-height: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+div .el0{
+    height: 100%;
+}
+.showid{
+    overflow: hidden;
+    padding: 6px 8px 2px;
+    position: relative;
+    z-index: 10;
+    width: 240px;
+    min-height: 25px;
+    background-color:#ffffff;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    
+}
+div .down{
+    width:272px;
+    min-height: 38px;
+
+    justify-content: space-between;
+}
+
